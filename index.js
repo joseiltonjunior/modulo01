@@ -67,6 +67,6 @@ server.delete('/users/:index', checkUserInArray, (req, res) => {
   return res.send();
 });
 
-server.listen(3030, () => {
-  console.log("Servidor rodando em http://localhost:3030");
+server.listen(3333, () => {
+  console.log("Servidor rodando em http://localhost:3333");
 });
